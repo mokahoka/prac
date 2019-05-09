@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer-container{
+    width: 561px;
+    height: 1327;
+    background-color: coral;
+    margin: auto;
+}
+
+.container{
+    
+}
