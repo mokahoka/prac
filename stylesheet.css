@@ -1,13 +1,98 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    
 }
 .outer-container{
     width: 561px;
     height: 1327;
-    background-color: coral;
+    /* background-color: coral; */
     margin: auto;
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    font-family: ClearSans;
+    color: #212121;
+}
+
+.header{
+    max-height: 20%;
+    background-color: #194b67;
+    padding: 5%;
+}
+
+.text-body{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.text-body > button{
+    flex: 1;
+    background-color: #0880c4;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro-info{
+    display: flex;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-info > h1{
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.intro-text > p{
+    font-size: 22px;
+    color: #616161;
+    margin: 0;
+}
+
+.doctor-image{
+}
+
+.medicine-info{
+    font-size: larger;
+    font-weight: 300;
+}
+
+.medicine-list-item{
+    margin: 0 0 40px 0;
+}
+.medicine-list-item > p{
+    margin: 0;
+    font-family: ClearSans;
+    font-weight: 300;
+    font-size: 16px;
+    color: #616161;
+}
+
+.medicine-details{
+    display: flex;
+}
+
+.medicine-details > h3{
+    margin: 0;
+}
+
+.medicine-details > img {
+    height: 100%;
+    padding: 5px;
+}
+
+.medicine-details > p {
+    margin: 0 0 0 auto;
+    font-size: 24px;
+    font-weight: 300;
+    color: #212121;
 }
