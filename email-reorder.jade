@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title EMAIL REORDER
+    link(rel='stylesheet', type='text/css', href='https://cdn.rawgit.com/resir014/Clear-Sans-Webfont/v1.1.0/css/clear-sans.css')
+    link(rel='stylesheet', href='./stylesheet.css')
+  body
+    .container
+      include ./header
+      .text-body
+        .intro-info
+          .intro-text
+            h1 It’s time to reorder, Anand
+            p Your medicines should be finishing soon Purchase before your stock runs out
+          .doctor-image
+            img(src='./images/oc-doctor.png', alt='doctor-sahab')
+        include ./medicine-list
+        .coupon-info
+          | Use the code 
+          span HAPPYPILL
+          |  to save 
+          span 23OFF
+          |  on this order.
+        .reorder-details
+          h3 Need Help On Reorder?
+          p
+            | If you are facing issue during reorder, you can replay to this same mail and we would be happy make this order for you. Else you can reach us at 
+            span +91 9638192373
+      include ./footer

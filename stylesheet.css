@@ -3,12 +3,11 @@ body{
     box-sizing: border-box;
     
 }
-.outer-container{
+/* .outer-container{
     width: 561px;
     height: 1327;
-    /* background-color: coral; */
     margin: auto;
-}
+} */
 
 .container{
     display: flex;
@@ -32,8 +31,9 @@ body{
 .text-body > button{
     flex: 1;
     background-color: #0880c4;
+    border-radius: 4px;
     color: white;
-    padding: 10px;
+    padding: 18px;
     font-size: 20px;
     font-weight: bold;
     border: none;
@@ -55,43 +55,41 @@ body{
 
 .intro-text > p{
     font-size: 22px;
-    color: #616161;
+    color: #616161e3;
     margin: 0;
 }
 
-.doctor-image{
-}
-
-.medicine-info{
-    font-size: larger;
-    font-weight: 300;
+.medicine-list > h2{
+    font-size: xx-large;
+    font-weight: 500;
 }
 
 .medicine-list-item{
     margin: 0 0 40px 0;
 }
-.medicine-list-item > p{
+.medicine-list-item > sup{
     margin: 0;
     font-family: ClearSans;
     font-weight: 300;
     font-size: 16px;
-    color: #616161;
+    color: #616161d9;
 }
 
 .medicine-details{
     display: flex;
+    align-items: center;
 }
 
-.medicine-details > h3{
+.medicine-details > p{
     margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 80%;
 }
 
-.medicine-details > img {
-    height: 100%;
-    padding: 5px;
-}
-
-.medicine-details > p {
+.medicine-details > span {
     margin: 0 0 0 auto;
     font-size: 23px;
     font-weight: 300;
@@ -101,7 +99,7 @@ body{
 .coupon-info{
     font-size: 24px;
     font-weight: 300;
-    color: #212121;
+    color: #616161f7;
     margin-top: 20px;
 }
 
@@ -118,7 +116,7 @@ body{
     margin:0;
     font-size: 16px;
     font-weight: 300;
-    color: #616161;
+    color: #616161d4;
 }
 
 .reorder-details > p span {
